@@ -1,13 +1,15 @@
-BaseURL = "http://example.org/"
+#BaseURL = "http://example.org/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 author = "Hugo Authors"
-title = "Vitae"
+#author = "Hugo Authors"
+#title = "Vitae"
+title = "Hello Blog"
 theme = "hugo-vitae"
 paginate = 5
 enableRobotsTXT = true
 
-copyright = "© Copyright notice | [Vitae](https://github.com/dataCobra/hugo-vitae) theme for [Hugo](https://gohugo.io)"
+#copyright = "© Copyright notice | [Vitae](https://github.com/dataCobra/hugo-vitae) theme for [Hugo](https://gohugo.io)"
 
 pygmentsstyle = "colorful"
 pygmentscodefences = true
@@ -37,13 +39,14 @@ googleAnalytics = ""
 	pagetitle = "All about static site generation"
 
 	# Add a subtitle to your website
-	subtitle = "[Vitae](https://github.com/dataCobra/hugo-vitae) is a blog theme for Hugo that focuses on your content."
+	#subtitle = "[Vitae](https://github.com/dataCobra/hugo-vitae) is a blog theme for Hugo that focuses on your content."
+	subtitle = "Thinking,Writing,record life"
 
 	# Add math typesetting with KaTeX (Global with this Param)
 	math = true
 
 	# Optional 80x80 avatar image.
-	avatar = "/img/vitae.jpg"
+	#avatar = "/img/vitae.jpg"
 
 	# Optional favicons for website
 	#favicon = true
@@ -125,10 +128,10 @@ name = "All Posts"
 url = "/post"
 weight = 2
 
-[[menu.main]]
-name = "About"
-url = "/about"
-weight = 3
+#[[menu.main]]
+#name = "About"
+#url = "/about"
+#weight = 3
 
 [[menu.main]]
 name = "Tags"
